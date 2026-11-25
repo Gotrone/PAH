@@ -1,1 +1,11 @@
 Project/data/
+
+# Compiled binaries
+TP1/Script/bilateral_cuda
+TP1/Script/cpu_filter
+TP1/Script/gpu_filter
+TP1/Script/Prof/bilateralProf
+
+# Course material (not redistributed)
+TP1/Cours/
+Project/*.pdf
