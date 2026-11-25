@@ -13,6 +13,10 @@ Edge-preserving image denoising, first implemented sequentially in C, then porte
 
 **≈ 29× speedup.** The block-size study (8 × 8 to 64 × 8) found the best time with 32 × 32 blocks (3.0 ms). Details in [`TP1/README.md`](TP1/README.md).
 
+![Bilateral filter: input and CUDA result](images/bilateral_filter.png)
+
+![CPU vs GPU execution time](images/cpu_vs_gpu.png)
+
 ## 2. Vision Transformer optimization – [`Project/`](Project)
 
 Adapting **ViT-B/16** (Hugging Face `google/vit-base-patch16-224`) to CIFAR-10, then testing compression techniques for deployment.
