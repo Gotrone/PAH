@@ -1,6 +1,6 @@
-# PAH: Bilateral Filter Implementation in C
+# Bilateral Filter: Sequential C and CUDA Implementation
 
-This repository contains the initial sequential C implementation of a bilateral filter for image denoising, part of the PAH project: "Débruitage avec Filtre Bilatéral en CUDA." The goal of the project is to first develop a CPU version and then port it to CUDA to exploit GPU acceleration.
+This repository contains the initial sequential C implementation of a bilateral filter for image denoising, part of the HPC for AI project: "Débruitage avec Filtre Bilatéral en CUDA." The goal of the project is to first develop a CPU version and then port it to CUDA to exploit GPU acceleration.
 
 ## Table of Contents
 
