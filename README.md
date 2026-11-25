@@ -1,4 +1,4 @@
-# HPC for AI (PAH) – GPU acceleration and model optimization
+# HPC for AI – CUDA bilateral filter and Vision Transformer optimization
 
 Two-part project on high-performance computing for AI, carried out in a team of two at CY Tech (High Performance Data Analytics track, 2025).
 
