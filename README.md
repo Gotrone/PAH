@@ -25,6 +25,10 @@ Adapting **ViT-B/16** (Hugging Face `google/vit-base-patch16-224`) to CIFAR-10, 
 - **Fine-tuning:** freezing all but the last three layers halves training time for a 0.03-point accuracy loss, so this model was kept as the baseline.
 - **Quantization and pruning:** both were tested (several sparsity levels, with and without removing zeroed weights). In this setup they cut accuracy too much, so the frozen fine-tuned model was kept. Full analysis (in French) in [`Project/README.ipynb`](Project/README.ipynb).
 
+## Contributions
+
+Team project of two. We worked on both parts together and shared the work. This repository is a fork of [PaulSerin/PAH](https://github.com/PaulSerin/PAH), where the first version of the code was committed. My own commits cover the ViT-B/16 fine-tuning and compression experiments (`Project/VITB.ipynb`), their write-up (`Project/README.ipynb`) and the top-level README.
+
 ## Tech stack
 
 C · CUDA · Python · PyTorch · Hugging Face Transformers · Jupyter
